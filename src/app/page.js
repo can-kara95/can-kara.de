@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Image from "next/image";
 
 export default function Home() {
@@ -109,5 +110,22 @@ export default function Home() {
         </a>
       </div>
     </main>
+=======
+'use client';
+import Image from "next/image";
+import Navbar from "./cmp/navbar/navbar";
+import Welcome from "./cmp/welcome/welcome";
+import About from "./cmp/about/about";
+import Footer from "./cmp/footer/footer";
+
+export default function Home() {
+  return (
+    <div className="bg-mainbg">
+      <Navbar></Navbar>
+      <Welcome></Welcome>
+      <About></About>
+      <Footer></Footer>
+    </div>
+>>>>>>> acf2aefa (Latest Update)
   );
 }
